@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marwadi University</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head> 
+
+<body>
+  <nav class="mx-auto" id="nav">
+    <ul class="nav justify-content-end">
+      <li class="nav-item"><a href=" " class="nav-link text-dark">Apply Now</a></li>
+      <li class="nav-item"><a href="" class="nav-link text-dark" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+      <li class="nav-item"><a href="" class="nav-link text-dark">Outcome Based Education</a></li>
+      <li class="nav-item"><a href="" class="nav-link text-dark">Parents</a></li>
+      <li class="nav-item"><a href="" class="nav-link text-dark">Alumni</a></li>
+    </ul>
+  </nav>
+  <div class="modal fade" id="loginModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header"><h3>Fill the details</h3>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="login form">
+            <label for="email" class="form-label">Enter Your Email:</label> 
+            <input type="text" class="form-control" placeholder="">
+            <br>
+            <label for="password" class="form-label">Enter You Password :</label>
+            <input type="password" class="form-control" placeholder=""><br>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="image/image.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-bs-toggle="dropdown">
+              Academics
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+              <li><a class="dropdown-item" href="#">Postgraduate</a></li>
+              <li><a class="dropdown-item" href="#">Diploma Courses</a></li>
+              <li><a class="dropdown-item" href="#">Research & Innovation</a></li>
+              <li><a class="dropdown-item" href="#">Online Courses</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="admissionDropdown" role="button" data-bs-toggle="dropdown">
+              Admission & Aid
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Admission</a></li>
+              <li><a class="dropdown-item" href="#">About student scholarship facility</a></li>
+              <li><a class="dropdown-item" href="#">ACPC Help Center</a></li>
+              <li><a class="dropdown-item" href="#">Fee Structure</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="lifeatuniversityDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Life At University
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Facilities</a></li>
+              <li><a class="dropdown-item" href="#">Centers</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#">Placements</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown">
+              About us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Leadership</a></li>
+              <li><a class="dropdown-item" href="#">About Rajkot</a></li>
+              <li><a class="dropdown-item" href="#">Why us?</a></li>
+              <li><a class="dropdown-item" href="#">Status and Accreditation</a></li>
+              <li><a class="dropdown-item" href="#">3-Layer Education</a></li>
+              <li><a class="dropdown-item" href="#">Learning & Development</a></li>
+
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="internationalDropdown" role="button"
+              data-bs-toggle="dropdown">
+              International
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">About International Relation</a></li>
+              <li><a class="dropdown-item" href="#">International Exchange Programme</a></li>
+
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <header class="header-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1>Shaping Leaders of Tomorrow</h1>
+          <p>Welcome to Marwadi University where we make students' holistic development our focus.</p>
+          <button class="btn btn-secondary btn-lg">Explore Programs</button>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="image/img2.png" alt="Students" class="header-img">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="program-section">
+    <div class="container">
+      <h2 class="text-center mb-5">Find the Right Programme</h2>
+
+      <div class="d-flex flex-wrap justify-content-center mb-4">
+        <button class="btn program-btn active">Undergraduate Programme</button>
+        <button class="btn program-btn">Postgraduate Programme</button>
+        <button class="btn program-btn">Diploma Courses</button>
+        <button class="btn program-btn">Research & Innovation</button>
+        <button class="btn program-btn">Online Courses</button>
+      </div>
+
+      <div class="program-grid">
+        <div class="program-card">
+          <i class="fas fa-desktop"></i>
+          <h4>Engineering & Technology</h4>
+        </div>
+        <div class="program-card">
+          <i class="fas fa-prescription-bottle"></i>
+          <h4>Pharmacy</h4>
+        </div>
+        <div class="program-card">
+          <i class="fas fa-gavel"></i>
+          <h4>Law</h4>
+        </div>
+        <div class="program-card">
+          <i class="fas fa-chart-line"></i>
+          <h4>Management</h4>
+        </div>
+        <div class="program-card">
+          <i class="fas fa-palette"></i>
+          <h4>Arts</h4>
+        </div>
+        <div class="program-card">
+          <i class="fas fa-flask"></i>
+          <h4>Science</h4>
+        </div>
+        <div class="program-card">
+          <i class="fas fa-laptop-code"></i>
+          <h4>Computer Application</h4>
+        </div>
+        <div class="program-card">
+          <i class="fas fa-user-md"></i>
+          <h4>Physiotherapy</h4>
+        </div>
+        <div class="program-card">
+          <i class="fas fa-user-nurse"></i>
+          <h4>Nursing</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-us">
+    <div class="container">
+      <h2 class="text-center mb-5">Why Choose Marwadi University</h2>
+
+      <div class="accreditation">
+        <div class="accred-logo">
+          <img src="image/naacimg.svg" alt="NAAC">
+          <span>A+</span>
+          <p>NAAC Accredited</p>
+        </div>
+        <div class="accred-logo">
+          <img src="image/nbaimg.svg" alt="NBA">
+          <span>Tier-1</span>
+          <p>NBA Accreditation</p>
+        </div>
+        <div class="accred-logo">
+          <img src="image/toppharmcyimg.svg" alt="Patents">
+          <span>110-125</span>
+          <p>All India Top Pharmacy colleges</p>
+        </div>
+        <div class="accred-logo">
+          <img src="image/topengineering.svg" alt="Alliances">
+          <span>200-300</span>
+          <p>All India Top Engineering Colleges</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="facility">
+    <div class="container">
+      <h2 class="text-center mb-5">What's On Campus</h2>
+
+      <div class="facility-list">
+        <div class="facility-item">Hostel</div>
+        <div class="facility-item">Transportation</div>
+        <div class="facility-item">Library</div>
+        <div class="facility-item">Physical Education</div>
+        <div class="facility-item">Student Clubs</div>
+        <div class="facility-item">Music & Dance</div>
+        <div class="facility-item">Cafeteria</div>
+        <div class="facility-item">Medical Room</div>
+        <div class="facility-item">Amphitheater</div>
+        <div class="facility-item">Lake & Jogging Track</div>
+        <div class="facility-item">High Security</div>
+        <div class="facility-item">Auditorium</div>
+        <div class="facility-item">Banking & ATM Facility</div>
+        <div class="facility-item">Sports Club</div>
+        <div class="facility-item">Advanced Labs</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="vision-mission">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Vision & Mission</h2>
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="vm-card">
+            <h3 class="mb-3"><i class="fas fa-eye me-2"></i>Our Vision</h3>
+            <p>To be a globally recognized institution of higher learning that nurtures talent and fosters innovation,
+              research, and entrepreneurship to contribute to sustainable development of society.</p>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="vm-card">
+            <h3 class="mb-3"><i class="fas fa-bullseye me-2"></i>Our Mission</h3>
+            <p>To provide quality education through innovative teaching methodologies, interdisciplinary research, and
+              industry collaborations that empower students to become socially responsible global citizens.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <div class="center">
+    <img src="image/img9.png">
+    <p>Marwadi University has been proudly recognized as a "Centre of Excellence" by the Government of Gujarat, placing
+      it among the TOP SEVEN INSTITUTIONS in the state. This prestigious status highlights the university's commitment
+      to providing Quality Education, Excellent Research, Innovative Teaching Methodologies, Quality of Extension
+      Services, High Employability and Entrepreneurship are being imparted.</p>
+  </div>
+  
+  <section class="life-campus">
+    <div class="container">
+      <h2 class="text-center mb-5">Life on Campus</h2>
+
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="life-card">
+            <img src="image/mu-beast.jpg" alt="Campus Beats">
+            <div class="life-card-body">
+              <h4>Campus Beats</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="life-card">
+            <img src="image/sports.jpg" alt="Sports">
+            <div class="life-card-body">
+              <h4>Sports</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="life-card">
+            <img src="image/cultural fest.jpg" alt="Cultural Fest">
+            <div class="life-card-body">
+              <h4>Cultural Festivals</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="life-card">
+            <img src="image/mu-fest.jpg" alt="MU Fest">
+            <div class="life-card-body">
+              <h4>MU Fest</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="life-card">
+            <img src="image/student-club.jpg" alt="Student Clubs">
+            <div class="life-card-body">
+              <h4>Student Clubs</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="life-card">
+            <img src="image/libraryimg.jpg" alt="Library">
+            <div class="life-card-body">
+              <h4>Library</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="recruiters">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Recruiters</h2>
+
+      <div class="company-logo">
+        <img src="image/google (1).png" alt="Google">
+        <img src="image/Nestle (1).png" alt="Nestle">
+        <img src="image/Nasdaq (1).png" alt="Nasdaq">
+        <img src="image/IDBI-Bank (1).png" alt="IDBI Bank">
+        <img src="image/Rtcamp (1).png" alt="Rtcamp">
+        <img src="image/TCS (1).png" alt="TCS">
+        <img src="image/Zomato (1).png" alt="Zomato">
+        <img src="image/Reliance-Industries (1).png" alt="Reliance">
+        <img src="image/techm (1).png" alt="TechM">
+        <img src="image/Uno-Minda (1).jpg" alt="Uno Minda">
+        <img src="image/Federal-Bank (1).png" alt="Federal Bank">
+        <img src="image/Flipkart (1).png" alt="Flipkart">
+        <img src="image/HDFC-Bank (1).png" alt="HDFC Bank">
+        <img src="image/Adani (1).png" alt="Adani">
+        <img src="image/Fintech-Global-Center.jpg" alt="Fintech">
+      </div>
+    </div>
+  </section>
+
+  <section class="course-outcomes">
+    <div class="container">
+      <h2 class="text-center mb-5">Program Learning Outcomes</h2>
+
+      <div class="row">
+        <div class="col-md-4 outcome-item">
+          <div class="text-center">
+            <div class="outcome-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h4>Academic Excellence</h4>
+            <p>Graduates will demonstrate comprehensive knowledge and skills in their chosen field of study.</p>
+          </div>
+        </div>
+        <div class="col-md-4 outcome-item">
+          <div class="text-center">
+            <div class="outcome-icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h4>Critical Thinking</h4>
+            <p>Students will develop analytical and problem-solving abilities to address complex challenges.</p>
+          </div>
+        </div>
+        <div class="col-md-4 outcome-item">
+          <div class="text-center">
+            <div class="outcome-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4>Teamwork & Leadership</h4>
+            <p>Graduates will exhibit effective collaboration and leadership skills in diverse environments.</p>
+          </div>
+        </div>
+        <div class="col-md-4 outcome-item">
+          <div class="text-center">
+            <div class="outcome-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h4>Global Perspective</h4>
+            <p>Students will develop an understanding of global issues and multicultural sensitivities.</p>
+          </div>
+        </div>
+        <div class="col-md-4 outcome-item">
+          <div class="text-center">
+            <div class="outcome-icon">
+              <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <h4>Ethical Values</h4>
+            <p>Graduates will demonstrate ethical reasoning and social responsibility in professional practice.</p>
+          </div>
+        </div>
+        <div class="col-md-4 outcome-item">
+          <div class="text-center">
+            <div class="outcome-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h4>Career Readiness</h4>
+            <p>Students will be prepared for successful careers or entrepreneurial ventures upon graduation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><br>
+  <div class="container">
+    <form id="login-form">
+      <div class="text-center"><h2>Student Registration Form</h2></div>
+      <div class="form-text"><h2>Student Information</h2></div>
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="first name"></div>
+          <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="middle name"></div>
+            <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="last name"></div>
+
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-6">
+              <input type="date" class="form-control" placeholder="D-O-B"></div>
+              <div class="col-md-6">
+              <input type="tel" class="form-control" placeholder="Student ID"></div>
+          </div><br>
+           <div class="form-text"><h2>Address</h2></div>
+           <input type="text" class="form-control" placeholder="Street address"><br>
+           <div class="row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="city"></div>
+               <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="State"></div>
+
+            </div><br>
+            <div class="row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="country"></div>
+               <div class="col-md-6">
+              <input type="tel" class="form-control" placeholder="Pin code"></div>
+
+            </div><br>
+            <div class="form-text"><h2>Contact Information</h2></div>
+            <div class="row">
+            <div class="col-md-6">
+              <input type="text" class="form-control" placeholder="email" required></div>
+               <div class="col-md-6">
+              <input type="tel" class="form-control" placeholder="Mobile No."></div>
+
+            </div><br>
+            <div class="form-text"><h2>Admission Information</h2><br><p>Application Type</p></div>
+             <input class="form-check-input " type="radio" value="course">Freshman
+             <input class="form-check-input " type="radio" value="course1">Transfer
+             <input class="form-check-input " type="radio" value="course2">others
+             <br>
+             <div class="form-text"><p>Admission Application for</p></div>
+             <input class="form-check-input " type="radio" value="course">1st Semmester
+             <input class="form-check-input " type="radio" value="course1">2nd Semmester
+             <br>
+             <div class="form-text"><p>Course applied for</p></div>
+             <input type="text" class="form-control" ><br><br>
+             <button class="btn btn-primary">Submit</button>
+           
+    </form>
+  </div>
+  <br>
+
+  <footer>
+    <div class="container">
+      <h2 class="text-center mb-5">Take the Next Step</h2>
+
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>FAQs</li>
+              <li>Careers</li>
+              <li>UGC Proform</li>
+              <li>Disclosure</li>
+              <li>NIRF</li>
+              <li>Academic Calendar</li>
+              <li>Code of Conduct</li>
+              <li>Naac</li>
+              <li>Tender</li>
+              <li>Right to Information</li>
+              <li>Annual Report</li>
+              <li>
+                <h3>Connect</h3>
+              </li>
+              <li>Image Gallery</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="footer-column">
+            <h3>Centres</h3>
+            <ul>
+              <li>MUIIR</li>
+              <li>CEFB</li>
+              <li>Women Cell</li>
+              <li>Placement Cells</li>
+              <li>Anti Ragging Cells</li>
+              <li>Equal Opportunity Cell</li>
+              <li>Socio-Economically Disadvantaged Group Cell (SEDG)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="footer-column">
+            <h3>Downloads</h3>
+            <ul>
+              <li>Brochure</li>
+              <li>MU Statutes & Ordinances</li>
+              <li>University Strategic Plan</li>
+              <li>Inclusion as per section 2(f) of the UGC Act 1956</li>
+              <li>Act No 9 of 2016</li>
+              <li>Whistleblower Policy</li>
+              <li>UGC Proform</li>
+              <li>SIRO Recognition</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="footer-column">
+            <h3>Students Corner</h3>
+            <ul>
+              <li>Login</li>
+              <li>LMS</li>
+              <li>Library</li>
+              <li>Alumni</li>
+              <li>Convocation</li>
+              <li>Internal Complaints Committee</li>
+              <li>National Academy Dipository</li>
+              <li>DigiLocker NAD</li>
+              <li>NAD-ABC</li>
+              <li>
+                <h3>Download App</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-footer">
+      <div class="container">
+        <p>&copy; 2023 Marwadi University. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
