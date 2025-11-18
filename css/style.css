@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+#nav {
+  width: auto;
+  height: 50px;
+  border: 1px solid bisque;
+  background-color: #F6F0E6;
+}
+
+.navbar {
+  width: auto;
+}
+
+
+.navbar .nav-link {
+
+  font-size: 19px;
+  font-weight: 600;
+  color: #A06C2E;
+}
+
+
+.header-section {
+  background: #F6F6F6;
+  color: #073742;
+  padding: 60px 0;
+  width: auto;
+}
+
+.header-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header-section p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.header-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.program-section {
+  padding: 60px 0;
+  background-color: #F4EBD3;
+}
+
+.program-btn {
+  background-color: #CDA452;
+  border: 1px solid #dee2e6;
+  color: #CDA452;
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.program-card {
+  background-color: white;
+  border-radius: 8px;
+
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+}
+
+.program-card i {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.why-us {
+  background-color: #F6F6F6;
+  padding: 60px 0;
+}
+
+.accreditation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.accred-logo {
+  text-align: center;
+  width: 150px;
+}
+
+.accred-logo img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.accred-logo span {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.facility {
+  padding: 60px 0;
+}
+
+.facility-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+
+}
+
+.facility-item {
+  font-size: 25px;
+  color: #CDA452;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+
+.center {
+  display: flex;
+  background-color: #DEC891;
+}
+
+.center p {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.life-campus {
+  padding: 60px 0;
+}
+
+.life-card {
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.life-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.life-card-body {
+  padding: 20px;
+  background-color: white;
+}
+
+.vision-mission {
+  background-color: #F6F0E6;
+  padding: 60px 0;
+}
+
+.vm-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  height: 100%;
+}
+
+.course-outcomes {
+  padding: 60px 0;
+  background-color: #F4EBD3;
+}
+
+.outcome-item {
+  margin-bottom: 30px;
+}
+
+.outcome-icon {
+  font-size: 2rem;
+
+  margin-bottom: 15px;
+}
+
+.recruiters {
+  background-color: whitesmoke;
+  color: #A06C2E;
+  padding: 60px 0;
+}
+
+.company-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.company-logo img {
+  height: 50px;
+
+}
+
+#login-form {
+  background-color: whitesmoke;
+  color: #A06C2E;
+  padding: 60px 0;
+
+}
+
+footer {
+  background-color: #F6F0E6;
+  color: black;
+  padding: 60px 0 30px;
+}
+
+.footer-column h3 {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-column li:hover {
+  color: var(--accent-color);
+}
+
+.sub-footer {
+  background-color: #1a1a1a;
+  padding: 20px 0;
+  text-align: center;
+  color: #aaa;
+  margin-top: 30px;
+}
+
+
+@media not all and (orientation: landscape) {
+  .header-section h1 {
+    font-size: 2rem;
+  }
+
+  .header-section p {
+    font-size: 1rem;
+  }
+
+  .program-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .accreditation {
+    gap: 20px;
+  }
+
+  .accred-logo {
+    width: 120px;
+  }
+}
